@@ -1,0 +1,65 @@
+.page {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  letter-spacing: 2px;
+  padding: 24px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+
+.hero {
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.hero__title {
+  color: white;
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.hero__title_theme_dark {
+  color: black; 
+}
+
+.hero__emphasis {
+  background-color: rgba(0, 0, 0, 0.75);
+  font-style: normal;
+  font-weight: bold;
+  padding: 16px;
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: 0;
+}
+
+.button_disabled {
+  background-color: brown;
+  cursor: not-allowed;
+}
