@@ -1,0 +1,19 @@
+.header {
+  letter-spacing: 2px;
+  padding: 24px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}

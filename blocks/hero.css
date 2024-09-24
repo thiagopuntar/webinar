@@ -1,0 +1,29 @@
+.hero {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .hero__title {
+    color: white;
+    font-size: 36px;
+    letter-spacing: 2px;
+    font-weight: normal;
+  }
+  
+  .hero__title_theme_dark {
+    color: black; 
+  }
+  
+  .hero__emphasis {
+    background-color: rgba(0, 0, 0, 0.75);
+    font-style: normal;
+    font-weight: bold;
+    padding: 16px;
+  }

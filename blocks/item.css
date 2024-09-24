@@ -1,0 +1,14 @@
+.item{
+    position: relative;
+  }
+  
+.item__title{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+  }
+  
+.item__image{
+    width: 320px;
+  }
