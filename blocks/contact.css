@@ -1,0 +1,15 @@
+.contact {
+}
+
+.contact__text {
+  margin-bottom: 12px;
+}
+
+.contact__input {
+  width: 95%;
+  margin: 0 auto;
+  padding: 12px 8px;
+  display: block;
+  margin-bottom: 12px;
+  border: 1px solid rgba(128, 128, 128, 0.79);
+}
